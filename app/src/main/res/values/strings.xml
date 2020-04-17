@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">myANGELS TECHNOLOGY</string>
+    <string name="myANGELS">myANGELS</string>
+    <string name="button">ENTER</string>
+    <string name="instruction01">PHOTO TEST QUESTIONS</string>
+    <string name="photo_test"></string>
+    <string name="kindly_type_your_name">kindly type your name</string>
+    <string name="myimage">myimage</string>
+</resources>

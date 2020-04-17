@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6B0303"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/instruction01"
+            android:textColor="#FF9800"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="100dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/edittext01"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="70dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:hint="@string/kindly_type_your_name"
+            android:background="#EBEBE9"></EditText>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="177dp"
+            android:layout_height="60dp"
+            android:text="@string/button"
+            android:textSize="30sp"
+            android:layout_marginTop="10dp"
+            android:onClick="goToSecondScreen"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
